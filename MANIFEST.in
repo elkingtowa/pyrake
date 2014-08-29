@@ -1,0 +1,13 @@
+include README.rst
+include AUTHORS
+include INSTALL
+include LICENSE
+include MANIFEST.in
+include pyrake/VERSION
+include pyrake/mime.types
+recursive-include pyrake/templates *
+recursive-include pyrake license.txt
+recursive-include docs *
+prune docs/build
+recursive-include extras *
+recursive-include bin *

@@ -1,0 +1,3 @@
+[console_scripts]
+pyrake = pyrake.cmdline:execute
+

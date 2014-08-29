@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+import pyrake
+
+
+class $classname(pyrake.Spider):
+    name = "$name"
+    allowed_domains = ["$domain"]
+    start_urls = (
+        'http://www.$domain/',
+    )
+
+    def parse(self, response):
+        pass
